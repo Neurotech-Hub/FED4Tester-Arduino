@@ -2,6 +2,7 @@
 
 // Pin Definitions
 #define SERVO_PIN 5 // PWM capable pin
+#define TOUCH_DETECT_PIN 6
 #define OUTPUT_PIN1 10
 #define OUTPUT_PIN2 11
 #define OUTPUT_PIN3 12
@@ -24,6 +25,7 @@ void setup()
   pinMode(OUTPUT_PIN2, INPUT);
   pinMode(OUTPUT_PIN3, INPUT);
   pinMode(LED_PIN, OUTPUT);
+  pinMode(TOUCH_DETECT_PIN, INPUT);
   delay(5000);
 }
 
